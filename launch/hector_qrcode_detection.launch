@@ -1,0 +1,9 @@
+
+<launch>
+ 
+  <node name="qrcode_detection_node" pkg="hector_qrcode_detection" type="qrcode_detection_node" output="screen">
+ <remap from="image" to="robotis_op/image" />
+  </node>
+
+
+</launch>
